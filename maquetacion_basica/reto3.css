@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 2px;
+    font-size: large;
+    font-weight: 600;
+    
+}
+.container{
+    height: 610px;
+    border: 10px lightgrey solid ;
+    width: 400px;
+    border-radius: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 15%;
+    border: solid green 5px;
+    border-radius: 1%;
+}
+.nav{
+    height: 10%;
+    border: solid brown 5px;
+    border-radius: 1%;
+}
+.centro{
+    height: 60%;
+    border: solid black 3px;
+    border-radius: 1%;
+    display: flex;
+}
+
+.footer{
+    height: 10%;
+    border: solid yellow 5px ;
+    border-radius: 1%;
+}
+
+.article{
+    width: 60%;
+    border: solid blue 4px;
+    
+    border-radius: 1%;
+    display: flex ;
+    flex-direction: column;
+}
+.asides{
+    width: 40%;
+    border: solid orange 4px;
+    display: flex;
+    flex-direction: column;
+
+}
+.heart{
+    height: 11%; 
+    border: solid lightgreen 4px ;
+    text-align: justify;
+    align-content: center;
+}
+.blanco{
+    height: 40%;
+    
+}
+.sections{
+    height: 25%;
+}
+.section{
+    height: 40%;
+    border: solid purple 3px ;
+}
+.footerart{
+    height: 5%;
+    border: solid lightgoldenrodyellow 4px;
+}
+.aside{
+    height: 50%;
+    border: solid aqua 4px;
+    border-radius: 1%;
+}
+
