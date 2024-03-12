@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@200;300;400;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+body{
+    /* font-family: 'Lilita One', sans-serif; */
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    font-family: 'Poppins', sans-serif;
+}
+.global{
+    width: 200vh;
+    height: 100vh;
+ 
+    background-image: url(images/background.avif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+     
+    .container-bienvenida{
+        width: 70%;
+        height: 35%;
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+        .titulo{
+            font-size: 80px;
+            line-height: 80px;
+            display: flex;
+        }
+    .container-descripcion{
+        width: 80%;
+        height: 35%;
+       
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+        .descripcion{
+            font-size: xx-large;
+            display: flex;
+        }
+    .container-menu{
+        width: 100%;
+        height: 10%;
+      
+        display: flex;
+    }
+        
+        
+        .container-inicio{
+            width: 20%;
+            height: 100%;
+          
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container-aboutme{
+            
+            width: 20%;
+            height: 100%;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container-tecnologia{
+            width: 20%;
+            height: 100%;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container-proyects{
+            width: 20%;
+            height: 100%;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container-contacto{
+            width: 20%;
+            height: 100%;
+           
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    .container-footer{
+        width: 100%;
+        height: 5%;
+        font-size: x-large;
+        background-color: rgb(104, 0, 202);
+        display: flex;
+        justify-content: space-around;
+    }
+        .instagram{
+            width: 40%;
+            height: 100%;
+           font-size: x-large;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .facebook{
+            width: 40%;
+            height: 100%;
+            font-size: x-large;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
