@@ -79,7 +79,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(images/paisajes-de-Canada.jpg);
+    background-image: url(https://res.cloudinary.com/worldpackers/image/upload/c_fill,f_auto,q_auto,w_1024/v1/guides/article_cover/gfuvmfczfyosqs1k4ema);
 
     background-position: center;
     
@@ -133,7 +133,7 @@ background-size: cover;
   color: white;
 }
 .tarjetas{
-    border: solid black;  
+    
     height: 900px;
     width: 100%;
     display: flex;

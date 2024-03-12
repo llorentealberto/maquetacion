@@ -2,11 +2,11 @@ let info=[];
 
 function AnadirInfo(){
 
-    let nombre=document.getElementById("nombre");
-    let origen=document.getElementById("origen");
-    let destino=document.getElementById("destino");
-    let personas=document.getElementById("personas");
-    let fecha=document.getElementById("fecha");
+    let nombre=document.getElementById("nombre").value;
+    let origen=document.getElementById("origen").value;
+    let destino=document.getElementById("destino").value;
+    let personas=document.getElementById("personas").value;
+    let fecha=document.getElementById("fecha").value;
 }
 
 if(nombre && origen && destino && personas && fecha ){
@@ -33,7 +33,7 @@ if(nombre && origen && destino && personas && fecha ){
 }
 
 
-let pedirInfo=document.getElementById("solicitarInfo");
+let pedirInfo=document.getElementById('solicitarInfo');
 // llamar a la funcion cada vez que se pinche en el boton de solicitar informacion 
 pedirInfo.addEventListener('click' , AnadirInfo());
 
