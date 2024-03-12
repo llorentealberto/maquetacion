@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+
+    width: 100%;
+    background-color: rgb(34, 91, 177);
+
+}
+.menu{
+    
+    background-color: rgb(5, 32, 71);
+    height: 100px;
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 23px;
+    text-decoration: none ;
+}  
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+
+  .menu-item {
+    
+    
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .menu-item:hover {
+    background-color: transparent;
+  }
+  .submenu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+    position: absolute;
+  }
+
+  .menu-item:hover .submenu {
+    display: block;
+  }
+
+  .submenu-item {
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  .submenu-item {
+    background-color:rgb(5, 32, 71);
+  }
+  .submenu-item:hover{
+    background-color: blue;
+  }
+
+.introducion{
+    
+    height: 700px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(images/paisajes-de-Canada.jpg);
+
+    background-position: center;
+    
+background-repeat: no-repeat;
+background-size: cover;    
+    
+    
+    
+
+
+}
+
+.titulo{
+   
+    width: 75%;
+    height: 699px;
+    display: flex;
+    color: white;
+    font-family:  "Brush Script MT" ;
+
+    justify-content: flex-start;
+    font-size: 80px;
+}
+.frase{
+    height: fit-content;
+    width: 60;
+}
+.descripcion{
+   
+    width: 25%;
+    height: 699px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.descripcion h1{
+     font-family: 'Open Sans', sans-serif;;
+     
+     font-weight: 30000;
+     -webkit-text-stroke: 1px rgb(179, 69, 69);
+    color: rgb(5, 32, 71);
+     
+}
+.descripcion p {
+    font-size: 30px;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+  color: white;
+}
+.tarjetas{
+    border: solid black;  
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    
+    margin-top: 30px;
+    margin: 5px;
+    
+ 
+    
+}
+.tarjetas div{
+    margin: 5px;
+}
+
+
+.canarias{
+    width: 46%;
+    background-image: url(https://a.cdn-hotels.com/gdcs/production68/d643/5e93aebf-bd88-4b50-b4e8-a3fcaaeb271d.jpg?impolicy=fcrop&w=800&h=533&q=medium);
+
+    background-size: cover;
+}
+.asturias{
+    width: 25%;
+    background-image: url(https://i0.wp.com/viajeros30.com/wp-content/uploads/2019/09/lagos-de-covadonga-asturias.jpg);
+    background-size: cover;
+
+}
+.cadiz{
+    width: 25%;
+    background-image: url(https://surtour.es/wp-content/uploads/2020/09/turismo-por-cadiz.jpg);
+    background-size: cover;
+}
+.porto{
+    width: 25%;
+    background-image: url(https://fotografias.larazon.es/clipping/cmsimages02/2023/08/01/F48773B7-0EAF-4890-BB84-E8C47652F510/paisaje-urbano-casco-antiguo-oporto-oporto-portugal-valle-rio-duero_98.jpg?crop=5300,2982,x84,y0&width=1900&height=1069&optimize=low&format=webply);
+    background-size: cover;
+    
+}
+.roma{
+    width: 46%;
+    background-image: url(https://historia.nationalgeographic.com.es/medio/2019/12/12/coliseo-roma_34e3eee6_1280x720.jpg) ;
+    background-size: cover;
+}
+.paris{
+    width: 25%;
+    background-image:url(https://img.freepik.com/fotos-premium/ciudad-es-capital-mundo_987032-20480.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697760000&semt=ais) ;
+    background-size: cover;
+}
+.bulgaria{
+    width: 25%;
+    background-image: url(https://pbs.twimg.com/media/E8neX3dWUAAJBX3.jpg);
+    background-size: cover;
+}
+.canada{
+    width: 25%;
+    background-image: url(https://res.cloudinary.com/worldpackers/image/upload/c_fill,f_auto,q_auto,w_1024/v1/guides/article_cover/gfuvmfczfyosqs1k4ema);
+    background-size: cover;
+}
+.usa{
+    width: 46%;
+    background-image: url(https://wp.growproexperience.com/wp-content/uploads/2022/06/Qu%C3%A9-ver-en-Estados-Unidos-_-30-lugares-imperdibles.jpg);
+    background-size: cover;
+    
+}
+form {
+    background-color: rgb(117, 211, 255);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: large;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  select,
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  button[type="submit"] {
+    background-color: #28A745;
+  }
+
+  .formulario-contacto{
+    border: solid black;
+    display: flex;
+    align-items: center;
+    
+  }
+h2{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
