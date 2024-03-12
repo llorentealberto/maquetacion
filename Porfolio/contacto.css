@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@200;300;400;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+   
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.container-general{
+    width: 195vh;
+    height: 100vh;
+    background-image: url(images/Contact-us-1-1920x1080.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    .container-menu{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        background: linear-gradient(to bottom right, black, rgb(99, 36, 47));
+        justify-content: center;
+    }
+        
+        
+            .container-home{
+                width: 20%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .container-home:hover{
+                background-color: rgb(110, 221, 248);
+            transition: background 0.3s ;
+            }
+            .container-aboutme{
+                width: 20%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .container-aboutme:hover{
+                background-color: rgb(110, 221, 248);
+                transition: background 0.3s ;
+            }
+            .container-tech{
+                width: 20%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .container-tech:hover{
+                background-color: rgb(110, 221, 248);
+                transition: background 0.3s ;
+            }
+            .container-proyects{
+                width: 20%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .container-proyects:hover{
+                background-color: rgb(110, 221, 248);
+                transition: background 0.3s ;
+            }
+            .container-contact{
+                width: 20%;
+                height: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .container-contact:hover{
+                background-color: rgb(110, 221, 248);
+            transition: background 0.3s ;
+            }
+    .container-body{
+        width: 100%;
+        height: 85%;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+    }
+        .container-formulario{
+            width: 40%;
+            height: 100%;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+            .container-formulario-decorador{
+                width: 90%;
+                height: 92%;
+                /* border: 2px solid black; */
+                border-radius: 10px;
+                background-color: rgba(3, 3, 3, 0.3);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+                .metodo-formulario{
+                    width: 90%;
+                    height: 100%;
+                    /* border: 2px solid red; */
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    #input-formulario1, #input-formulario2, #input-formulario3, #input-formulario4, #input-formulario5{
+                        width: 100%;
+                        height: 11.5%;
+                        border: 2px solid white;
+                        border-radius: 4px;
+                        display: flex;
+                        padding: 3px;
+                        font-family: Helvetica;
+
+                    }
+                .container-boton{
+                    width: 30%;
+                    height: 10%;
+                   
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+                    #boton-formulario{
+                        width: 100%;
+                        height: 100%;
+                        background-color: white;
+                        border-radius: 7px;
+                        color: black;
+                        margin: 5px
+                        
+                    }
+                    #boton-formulario:hover{
+                        background-color:rgb(99, 36, 47);
+                        color: white;
+                    }
+                    #boton-formulario:active{
+                        background-color: white;
+                        color: black;
+                    }
+                
+                .container-filtrado{
+                    width: 30%;
+                    height: 10%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    
+                }
+                    #boton-filtrado{
+                        width: 100%;
+                        height: 100%;
+                        background-color: white;
+                        border-radius: 7px;
+                        color: black;
+                        
+                    }
+                    #boton-filtrado:hover{
+                        background-color:rgb(99, 36, 47);
+                        color: white;
+                    }
+                    #boton-filtrado:active{
+                        background-color: white;
+                        color: black;
+                    }
+                    .container-vacio-espacio2{
+                        width: 10%;
+                        height: 5%;
+                    }
+                    .container-footer{
+                        width: 100%;
+                        height: 5%;
+                        font-size: x-large;
+                        background-color: rgb(99, 36, 47);
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                        .instagram{
+                            width: 40%;
+                            height: 100%;
+                           font-size: x-large;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .facebook{
+                            width: 40%;
+                            height: 100%;
+                            font-size: x-large;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }

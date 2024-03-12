@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@200;300;400;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    /* font-family: 'Lilita One', sans-serif; */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.container-general{
+    width: 195vh;
+    height: 100vh;
+    /* border: 2px solid black; */
+    background-image: url(images/Pagina-Gerencia-offline-870x500_Mesa-de-trabajo-1.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-menu{
+    width: 100%;
+    height: 10%;
+    color: black;
+    background: linear-gradient(to bottom right, black, rgb(99, 36, 47));
+    display: flex;
+    justify-content: center;
+}
+   
+    
+    .container-home{
+        width: 20%;
+        height: 100%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-home:hover{
+        background-color: rgb(110, 221, 248);
+        transition: background 0.3s ;
+    }
+    .container-aboutme{
+        width: 20%;
+        height: 100%;
+      
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-aboutme:hover{
+        background-color: rgb(110, 221, 248);
+        transition: background 0.3s linear;
+    }
+    .container-tech{
+        width: 20%;
+        height: 100%;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-tech:hover{
+        background-color: rgb(110, 221, 248);
+        transition: background 0.3s linear;
+    }
+    .container-proyects{
+        width: 20%;
+        height: 100%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-proyects:hover{
+        background-color: rgb(110, 221, 248);
+        transition: background 0.3s linear;
+    }
+    .container-contact{
+        width: 20%;
+        height: 100%;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-contact:hover{
+        background-color: rgb(110, 221, 248);
+        transition: background 0.3s linear;
+    }
+    .container-body{
+        width: 100%;
+        height: 85%;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+        .container-frase{
+            width: 70%;
+            height: 10%;
+            color: black;
+            font-style: italic;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 60%;
+            background: linear-gradient(to bottom right, transparent, pink);
+        }
+        .container-repositorio{
+            width: 60%;
+            height: 10%;
+            
+            border-radius: 100px;
+            background: linear-gradient(to bottom right, transparent, black);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container-repositorio a{
+            font-size: xx-large;
+            font-weight: 600;
+        }
+    
+        .container-footer{
+            width: 100%;
+            height: 5%;
+            font-size: x-large;
+            background-color: rgb(99, 36, 47);
+            display: flex;
+            justify-content: space-around;
+        }
+            .instagram{
+                width: 40%;
+                height: 100%;
+               font-size: x-large;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .facebook{
+                width: 40%;
+                height: 100%;
+                font-size: x-large;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
