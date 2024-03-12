@@ -16,7 +16,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .container-general{
-    width: 195vh;
+    width: 100%;
     height: 100vh;
     /* border: 2px solid black; */
     background-image: url(images/Pagina-Gerencia-offline-870x500_Mesa-de-trabajo-1.png);
@@ -154,3 +154,27 @@ body{
                 justify-content: center;
                 align-items: center;
             }
+
+.techh{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    font-size: xx-large;
+    color: black;
+    background-color: rgb(99, 36, 47);
+    opacity: 0.9;
+}
+.techh img {
+    height: 90px;
+    width: 100px;
+}
+.techlogos{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
