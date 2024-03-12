@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@200;300;400;600;700;800&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    /* color: white; */
+}
+body{
+    /* font-family: 'Lilita One', sans-serif; */
+    /* color: white; */
+    font-family: 'Poppins', sans-serif;
+}
+.container-general{
+    width: 180.2vh;
+    height: 115vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+    .container-body{
+        width: 100%;
+        height: 87.5%;
+        /* border: 2px solid black; */
+        display: flex;
+    }
+        .container-smartphones{
+            width: 51%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            text-align: center;
+            justify-content: end;
+            align-items: center;
+        }
+            .container-imagen{
+                width: 80%;
+                height: 73%;
+                /* border: 2px solid black; */
+                background-image: url(imagenes/smartphone-instagram.png);
+                background-size: cover;
+                display: flex;
+            }
+            .container-vacio1{
+                width: 2.5%;
+                height: 10%;
+                /* border: 2px solid black; */
+                display: flex;
+            }
+        .container-formulario{
+            width: 49%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+            .container-login{
+                width: 58%;
+                height: 73%;
+                border: 2px solid grey;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+            }
+                .container-instagram{
+                    width: 100%;
+                    height: 15%;
+                    /* border: 2px solid black; */
+                    font-family: 'Satisfy';
+                    font-weight: 100;
+                    font-size: x-large;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+                }
+                .container-formulario-login{
+                    width: 100%;
+                    height: 35%;
+                    /* border: 2px solid red; */
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                    .formulario{
+                        width: 90%;
+                        height: 90%;
+                        /* border: 2px solid red; */
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                        #input-name{
+                            width: 90%;
+                            height: 20%;
+                            border: 2px solid grey;
+                            border-radius: 5px;
+                            padding: 5px;
+                            margin: 3px;
+                            display: flex;
+                        }
+                        #input-password{
+                            width: 90%;
+                            height: 20%;
+                            border: 2px solid grey;
+                            border-radius: 5px;
+                            padding: 5px;
+                            margin: 3px;
+                            display: flex;
+                        }
+                        #boton{
+                            width: 90%;
+                            height: 20%;
+                            border: 2px solid rgb(36, 149, 255);
+                            background-color: rgb(36, 149, 255);
+                            border-radius: 5px;
+                            margin: 7.5px;
+                            color: white;
+                            font-weight: 800;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                .container-facebook{
+                    width: 100%;
+                    height: 30%;
+                    /* border: 2px solid black; */
+                    font-family: Helvetica;
+                    padding: 15px;
+                    display: flex;
+                    flex-direction: column;
+                }
+                    .parrafo2{
+                        font-size: small;
+                    }
+            .container-vacio2{
+                width: 2.5%;
+                height: 10%;
+                /* border: 2px solid black; */
+                display: flex;
+            }
+            .container-logos{
+                width: 100%;
+                height: 27%;
+                /* border: 2px solid black; */
+                display: flex;
+                flex-direction: column;
+            }
+                .titulo-logos{
+                    width: 100%;
+                    height: 50%;
+                    /* border: 2px solid black; */
+                    font-family: Helvetica;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .logos{
+                    width: 100%;
+                    height: 50%;
+                    /* border: 2px solid black; */
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    text-align: center;
+                }
+                    .app-store{
+                        width: 48%;
+                        height: 95%;
+                        /* border: 2px solid black; */
+                        background-image: url(imagenes/app-store.png);
+                        background-size: cover;
+                        display: flex;
+                    }
+                    .play-store{
+                        width: 48%;
+                        height: 95%;
+                        /* border: 2px solid black; */
+                        background-image: url(imagenes/1e3a27414de58d0df178be36670f67a8.png);
+                        background-size: cover;
+                        display: flex;
+                    }
+    .container-footer{
+        width: 100%;
+        height: 12.5%;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .footer{
+            width: 76.5%;
+            height: 30%;
+            /* border: 2px solid black; */
+            padding: 8px;
+            font-family: Helvetica;
+            font-size: small;
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+@media screen and (max-width: 768px){
+    .container-body{
+        flex-direction: column;
+    }
+    .container-smartphones{
+        display: none;
+    }
+}
+@media screen and (max-width: 475px){
+    .container-formulario{
+            width: 49%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+}
+@media screen and (max-width: 378px){
+    .container-login{
+        width: 300px;
+        height: 73%;
+        border: none;
+        border-radius: 5px;
+        display: flex;
+    }
+}
