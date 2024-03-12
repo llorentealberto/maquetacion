@@ -84,3 +84,15 @@ nav ul li a:hover {
     
 
 }
+.footer{
+    background-color: black;
+    border: solid black 4px ;
+    height: 15vh;
+    display: flex;
+   
+    justify-content: center;
+}
+.footer img{
+    height: 13vh;
+}
+ 
