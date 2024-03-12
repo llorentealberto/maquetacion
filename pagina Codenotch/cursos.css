@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body{
+    background-color: rgb(32, 32, 211);
+    background-size: cover;
+}
+.header{
+    
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 15vw;
+    
+}
+.logo{
+    width: 25%;
+    
+    
+}
+.navegador{
+    
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    
+    
+     
+    
+}
+.enlaces{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    
+}
+li{
+    text-decoration: none;
+}
+.enlaces li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: x-large;
+}
+nav ul li a:hover {
+    color: #030303; /* Cambia el color al pasar el ratón por encima */
+  }
+  .footer{
+    background-color: black;
+    border: solid black 4px ;
+    height: 15vh;
+    display: flex;
+   
+    justify-content: center;
+}
+.footer img{
+    height: 13vh;
+}
+.principal{
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+.tarjetaCurso{
+    padding-top: 25px;
+    height: 50vh;
+    width: 27vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(blue, black);
+    border-radius: 1%;
+
+}
+.titulo{
+    height: 25%;
+}
+.descripcion{
+    
+    height: 80%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    color: aliceblue;
+    font-size: x-large;
+    font-weight: 500;
+    
+}
+.foto img {
+    height:100%;
+    border-radius: 50%;
+    
+}
