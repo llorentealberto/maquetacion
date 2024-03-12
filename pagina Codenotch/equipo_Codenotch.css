@@ -58,16 +58,17 @@ nav ul li a:hover {
   .footer{
     background-color: black;
     border: solid black 4px ;
-    height: 15vh;
+    height: 10vh;
     display: flex;
    
     justify-content: center;
 }
 .footer img{
-    height: 13vh;
+    height: 8vh;
 }
+
 .principal{
-    height: 75vh;
+    height: 80vh;
     display: flex;
     flex-wrap: wrap;
     align-content: space-evenly;

@@ -6,7 +6,7 @@
     
 }
 body{
-    background-color: rgb(32, 32, 211);
+    background-color: rgb(255, 255, 255);
     background-size: cover;
 }
 .header{
@@ -15,7 +15,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 15vw;
+   padding-left: 15vw;
+    background-color: #030303;
     
 }
 .logo{
@@ -52,57 +53,118 @@ li{
     color: whitesmoke;
     font-size: x-large;
 }
-nav ul li a:hover {
+/* nav ul li a:hover {
     color: #030303; /* Cambia el color al pasar el ratón por encima */
-  }
-  .footer{
+.footer{
     background-color: black;
     border: solid black 4px ;
-    height: 15vh;
+    height: 10vh;
     display: flex;
    
     justify-content: center;
 }
 .footer img{
-    height: 13vh;
+    height: 8vh;
 }
-.principal{
-    height: 75vh;
+
+.descripcion{
+    height: 60vh;
+    background-image: url("https://www.codenotch.com/wp-content/uploads/2021/05/bootcamp-desarrollo-web-y-movil.png");
+    color: whitesmoke ;
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    padding-left: 12%;
+    padding-top: 3%;
+}
+.titulocurso{
+    width: 45%;
+}
+.descripcion p {
+    width: 60%;
+    margin-top: 3%;
+    font-weight: bold;
+}
+.button{
+    width: 11%;
+    height: 9%;
+    margin-top: 3%;
+}
+
+.cursos{
+    
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    align-content: space-evenly;
     justify-content: space-evenly;
-}
-.tarjetaCurso{
-    padding-top: 25px;
-    height: 50vh;
-    width: 27vw;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    background: linear-gradient(blue, black);
-    border-radius: 1%;
 
 }
-.titulo{
-    height: 25%;
-}
-.descripcion{
+
+.foto{
     
-    height: 80%;
-    width: 60%;
+    height: 45%;
+    width: 45%;
+}
+.foto img{
+    height: 100%;
+    width: 100%;
+}
+.infocursos {
+    
+    height: 45%;
+    width: 45%;
+}
+.infocursos{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: x-large;
+    padding-left: 4%;
+
+
+}
+.section{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    text-align: center;
+}
+.section p{
+    border-bottom: solid grey 2px;
+}
+.info {
+    height: 80vh;
+    background-color: #030303;
     color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+.info h1{
+    
+    width: 100%;
+    height: 15%;
+    padding-left: 10%;
+    margin: auto;
+    text-align: left;
+}
+.parrafazo{
+    display: flex;
+    align-items: center;
+}
+.parrafazo p{
+    width: 55%;
+    
+    height: 60vh;
+    align-items: center;
+    text-align: center;
+    padding-left: 75px;
     font-size: x-large;
-    font-weight: 500;
+    font-weight: bolder;
+    margin-right: 45px;
     
 }
-.foto img {
-    height:100%;
-    border-radius: 50%;
-    
+.parrafazo img{
+    height: 30vh;
 }
