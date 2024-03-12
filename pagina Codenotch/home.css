@@ -70,17 +70,29 @@ nav ul li a:hover {
     padding-bottom: 15vh;
     font-size: xx-large;
 }
+
 .color-destacado{
     color: rgb(55, 189, 55);
+}
+
+.secondary{
+    
+    display: flex;
+    height: 75vh;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding-top: 15vh;
+    padding-bottom: 15vh;
 }
 .footer{
     background-color: black;
     border: solid black 4px ;
-    height: 15vh;
+    height: 10vh;
     display: flex;
    
     justify-content: center;
 }
 .footer img{
-    height: 13vh;
+    height: 8vh;
 }
