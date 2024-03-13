@@ -1,0 +1,106 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+.grid{
+
+    display: grid;
+    grid-template-areas: " header"
+                        "principal"
+                        "footer";
+    
+                        text-align: center;
+                        font-weight: bold;
+    
+
+}
+
+.header{
+    grid-area: header;
+    height: 100px;
+}
+.principal{
+    grid-area: principal;
+    height: 400px;
+}
+.footer{
+    grid-area: footer;
+    border: solid black 2px ;
+}
+
+.header{
+    display: grid;
+    grid-template-areas: "cabecera cabecera  imagen"
+                        ;
+    color: aliceblue;
+    text-align: center;
+}
+
+.cabecera{
+    grid-area: cabecera;
+    background-color: rgb(99, 14, 14);
+    text-align: center;
+}
+.imagen{
+    grid-area: imagen;
+    background-color: rgb(44, 3, 3);
+}
+.principal{
+    display: grid;
+    grid-template-areas: " izquierda derecha derecha";
+    color: aliceblue;
+    text-align: center;
+
+}
+.izquierda{
+    grid-area: izquierda;
+    background-color: orange;
+    display: grid;
+    grid-template-areas: "aside"
+                        "centro"
+                        "aside2";
+    padding: 4%;
+}
+.aside{
+    grid-area: aside;
+    background-color: white;
+    
+    color: orange;
+    
+}
+.aside2{
+    grid-area: aside2;
+    background-color: white;
+    
+    color: orange;
+}
+.derecha{
+    grid-area: derecha;
+    display: grid;
+    grid-template-areas: "contenido contenido "
+                        "texto texto ";
+
+    background-color: orangered;
+    border: solid black 3px ;
+}
+.contenido{
+    grid-area: contenido;
+    border: solid white 2px;
+    margin: 5px;
+
+}
+.texto{
+    grid-area: texto;
+    border: solid white 2px ;
+    margin: 5px ;
+}
+.footer{
+    grid-area: footer;
+    height: 100px;
+    background-color: rgb(44, 3, 3) ;
+    color: white;
+}
+
+
+
