@@ -1,0 +1,19 @@
+.grid{
+    display: grid;
+    height: 500px;
+    
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+    grid-template-rows: 7fr 3fr;
+}
+
+.a{
+    background-color: rgb(92, 235, 26);
+    text-align: center;
+    font-weight: bold;
+}
+.b{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+}
